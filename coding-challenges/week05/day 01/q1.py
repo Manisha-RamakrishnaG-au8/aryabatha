@@ -18,7 +18,7 @@ def printPowerSet(arr, n):
             print(string, end = " ") 
         print() 
   
-
+ 
 if __name__ == '__main__': 
     arr = [10, 12, 12] 
     n = len(arr) 
