@@ -1,0 +1,73 @@
+Elaborate and explain with a diagram difference between processes and threads.
+
+
+Answer
+
+Process:
+Process means any program is in execution. Process control block controls the operation of any process.
+ Process control block contains the information about processes for example: Process priority, process id, process state
+ , CPU, register etc. A process can creates other processes which are known as Child Processes. Process takes more time to terminate
+  and it is isolated means it does not share memory with any other process.
+
+Thread:
+Thread is the segment of a process means a process can have multiple threads and these multiple threads 
+are contained within a process. A thread have 3 states: running, ready, and blocked.
+Thread takes less time to terminate as compared to process and like process threads do not isolate.
+
+
+
+1.	
+ Process:
+     Process means any program is in execution.
+ Thread:
+	Thread means segment of a process.
+
+
+2.	Process takes more time to terminate.
+
+    Thread takes less time to terminate.
+
+    
+3.	It takes more time for creation.
+
+	It takes less time for creation.
+
+
+4.	It also takes more time for context switching.
+
+	It takes less time for context switching.
+
+
+5.	Process is less efficient in term of communication.	
+
+    Thread is more efficient in term of communication.
+
+
+6.	Process consume more resources.	
+
+    Thread consume less resources.
+
+
+7.	Process is isolated.
+
+	Threads share memory.
+
+
+8.	Process is called heavy weight process.	
+
+    Thread is called light weight process.
+
+
+9.	Process switching uses interface in operating system.
+
+	Thread switching does not require to call a operating system and cause an interrupt to the kernel.
+
+
+10.	If one server process is blocked no other server process can execute until the first process unblocked.	
+
+    Second thread in the same task could run, while one server thread is blocked.
+
+
+11.	Process has its own Process Control Block, Stack and Address Space.
+
+	Thread has Parents’ PCB, its won Thread Control Block and Stack and common Address space.
