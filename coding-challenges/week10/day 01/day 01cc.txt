@@ -1,0 +1,13 @@
+Explain the main purpose of an operating system?
+
+Answer:
+
+
+An operating system is the level of programming that lets you do things with your computer. 
+The operating system interacts with a computer's hardware on a basic level, transmitting your commands into language the hardware 
+can interpret. The OS acts as a platform for all other applications on your machine. Without it, your computer would just be a paperweight.
+
+
+At its heart, a computer is a number-crunching device. 
+It takes input in the form of zeros and ones -- bits -- and channels them through various circuits and processors. The hardware behaves according to strict rules. We define these rules using things like logic gates, which take input and produce an output in a predictable way. Some simple computers have no need of an operating system because they only perform a specific task. But personal computers need to be more versatile. The operating system allows complex programs to access the capabilities of the hardware to get results. 
+Only the hardware's physical properties and our own imaginations can limit what programs can do.
