@@ -1,0 +1,11 @@
+List down all the features of adb schema for a food delivery startup like Zomato/Swiggy
+
+
+Menus With Price Details
+Predictive Search
+Secure Payment Integration
+Push Notification
+Accurate Time of Food Delivery
+GPS Tracking
+Ratings and Reviews
+Social Media Integration
