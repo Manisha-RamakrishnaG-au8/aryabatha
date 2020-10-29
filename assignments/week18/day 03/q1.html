@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Post model</title>
+</head>
+<body>
+ <p id="apicall"> </p>
+
+    <script>
+    fetch('https://jsonplaceholder.typicode.com/todos').then((apidata) =>
+    {
+       
+        return apidata.json();
+    }).then ((actualdata) => {
+      
+        const mydata =  actualdata.userId[4];
+        document.getElementById('apicall').innerHTML = mydata;
+
+    }).catch( (error) => {
+        console.log('error ,check');
+    })
+    
+</script>
+</body>
+</html>
