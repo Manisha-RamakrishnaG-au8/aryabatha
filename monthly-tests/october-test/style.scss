@@ -62,14 +62,24 @@ header{
             align-items: center;
             .veiwAll{
                 color: rgb(77, 124, 5);
+
             }
             .viewMore{
                 .arrow{
+
                     &.darker, 
                     &:hover{
                         opacity: 1;
                     }
                 }
+                
+            }
+        }
+    }
+    .listings-grid{
+        .listings-grid-element{
+            .image{
+                height: 240px;
                 
             }
         }
