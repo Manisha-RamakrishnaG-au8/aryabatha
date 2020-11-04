@@ -1,0 +1,13 @@
+1. Difference between task runners & webpacks.
+Grunt and Gulp are actually task runners, and they have differences like config driven tasks versus stream based transformations. Each has its own strengths and weaknesses, but at the end of the day, they pretty much help you create tasks that can be run to solve a larger build problem. Most of the time, they have nothing to do with the actual run-time of the app, but rather they transform or they put files, configs and other things in place so that the run time works as expected. Sometimes they even spawn servers or other processes that you need to run your app.
+Webpack and Browserify are package bundlers. Basically, they are designed to run through all of a package's dependencies and concatenate their source into one file that (ideally) can be used in a browser. They are important to modern web development, because we use so many libraries that are designed to run with Node.js and the v8 compiler. Again, there are pros and cons and different reasons some developers prefer one or the other (or sometimes both!). Usually the output bundles of these solutions contain some sort of bootstrapping mechanisms to help you get to the right file or module in a potentially huge bundle.
+
+2. What is a task runner?
+A task runner is exactly what it sounds like, a program that can execute tasks based on specific criteria. Common usages are to set up a task that runs everytime a certain file is changed (or group of files) so you don't have to explicitly recompile every time, or to restart a server every time you restart the database.
+
+3. What is a webpack?
+Webpack is a static module bundler for modern JavaScript applications. When webpack processes your application, it internally builds a dependency graph which maps every module your project needs and generates one or more bundles.
+
+4.Why these things are used?
+In one word: automation. The less work you have to do when performing repetitive tasks like minification, compilation, unit testing, linting, etc, the easier your job becomes. After you've configured it through a Gruntfile, a task runner can do most of that mundane work for you—and your team—with basically zero effort.
+It's a tool that lets you bundle your JavaScript applications (supporting both ESM and CommonJS), and it can be extended to support many different assets such as images, fonts and stylesheets. Webpack cares about performance and load times; it's always improving or adding new features, such as async chunk loading and prefetching, to deliver the best possible experience for your project and your users.
